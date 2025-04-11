@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends, status
 from typing import List
 
-from app.schemas.libro import LibroCreate, LibroUpdate, LibroResponse
-from app.services.biblioteca_service import BibliotecaService
+from app.schemas.Libro import LibroCreate, LibroUpdate, LibroResponse
+from app.services.Biblioteca_service import BibliotecaService
 
 router = APIRouter(
     prefix="/libros",
