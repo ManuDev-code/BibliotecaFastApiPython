@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends, status
 from typing import List
 
-from app.schemas.usuario import UsuarioCreate, UsuarioUpdate, UsuarioResponse
-from app.services.biblioteca_service import BibliotecaService
+from app.schemas.Usuario import UsuarioCreate, UsuarioUpdate, UsuarioResponse
+from app.services.Biblioteca_service import BibliotecaService
 
 router = APIRouter(
     prefix="/usuarios",
